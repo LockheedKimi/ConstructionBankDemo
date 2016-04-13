@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		688BD7FC7725C3EF401A67B4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BBD5FC24E0B3D750011875A /* libPods.a */; };
+		F0192D9D1C47955D003F51BC /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F0192D9C1C47955D003F51BC /* libc++.tbd */; };
+		F0192D9F1C47956A003F51BC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F0192D9E1C47956A003F51BC /* libz.tbd */; };
+		F0192DA11C479597003F51BC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0192DA01C479597003F51BC /* SystemConfiguration.framework */; };
+		F0192DA31C4795D9003F51BC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0192DA21C4795D9003F51BC /* CoreTelephony.framework */; };
+		F0192DA51C4795EA003F51BC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0192DA41C4795EA003F51BC /* QuartzCore.framework */; };
+		F0192DA71C479608003F51BC /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0192DA61C479608003F51BC /* CoreText.framework */; };
+		F0192DA91C479627003F51BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0192DA81C479627003F51BC /* CoreGraphics.framework */; };
+		F0192DAB1C479636003F51BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0192DAA1C479636003F51BC /* UIKit.framework */; };
+		F0192DAD1C479640003F51BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0192DAC1C479640003F51BC /* Foundation.framework */; };
+		F0192DAF1C479656003F51BC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0192DAE1C479656003F51BC /* CFNetwork.framework */; };
+		F0192DB11C479668003F51BC /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0192DB01C479668003F51BC /* CoreMotion.framework */; };
+		F0192F161C47CB4C003F51BC /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0192F151C47CB4C003F51BC /* OpenGLES.framework */; };
+		F063236E1C86839500C16CBE /* KSDKsliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F063236D1C86839500C16CBE /* KSDKsliderView.m */; };
 		F06C6B911C1EBC4400B2BB4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F06C6B901C1EBC4400B2BB4B /* main.m */; };
 		F06C6B941C1EBC4400B2BB4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F06C6B931C1EBC4400B2BB4B /* AppDelegate.m */; };
 		F06C6B971C1EBC4400B2BB4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F06C6B961C1EBC4400B2BB4B /* ViewController.m */; };
@@ -39,6 +52,21 @@
 		142BA43EAE2A0A1A829E0213 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		34B6ED9998EB1B2A0D696593 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6BBD5FC24E0B3D750011875A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0192D9C1C47955D003F51BC /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F0192D9E1C47956A003F51BC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F0192DA01C479597003F51BC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F0192DA21C4795D9003F51BC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F0192DA41C4795EA003F51BC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F0192DA61C479608003F51BC /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		F0192DA81C479627003F51BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F0192DAA1C479636003F51BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F0192DAC1C479640003F51BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F0192DAE1C479656003F51BC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F0192DB01C479668003F51BC /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		F0192F131C47C60D003F51BC /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = "../../Desktop/支付宝/AlipaySDK.framework"; sourceTree = "<group>"; };
+		F0192F151C47CB4C003F51BC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F063236C1C86839500C16CBE /* KSDKsliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSDKsliderView.h; sourceTree = "<group>"; };
+		F063236D1C86839500C16CBE /* KSDKsliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSDKsliderView.m; sourceTree = "<group>"; };
 		F06C6B8C1C1EBC4400B2BB4B /* BankDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06C6B901C1EBC4400B2BB4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F06C6B921C1EBC4400B2BB4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,6 +83,7 @@
 		F06C6BB01C1EBC4400B2BB4B /* BankDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06C6BB41C1EBC4400B2BB4B /* BankDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankDemoUITests.m; sourceTree = "<group>"; };
 		F06C6BB61C1EBC4400B2BB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06C6BC51C1EC30B00B2BB4B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +91,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0192F161C47CB4C003F51BC /* OpenGLES.framework in Frameworks */,
+				F0192DB11C479668003F51BC /* CoreMotion.framework in Frameworks */,
+				F0192DAF1C479656003F51BC /* CFNetwork.framework in Frameworks */,
+				F0192DAD1C479640003F51BC /* Foundation.framework in Frameworks */,
+				F0192DAB1C479636003F51BC /* UIKit.framework in Frameworks */,
+				F0192DA91C479627003F51BC /* CoreGraphics.framework in Frameworks */,
+				F0192DA71C479608003F51BC /* CoreText.framework in Frameworks */,
+				F0192DA51C4795EA003F51BC /* QuartzCore.framework in Frameworks */,
+				F0192DA31C4795D9003F51BC /* CoreTelephony.framework in Frameworks */,
+				F0192DA11C479597003F51BC /* SystemConfiguration.framework in Frameworks */,
+				F0192D9F1C47956A003F51BC /* libz.tbd in Frameworks */,
+				F0192D9D1C47955D003F51BC /* libc++.tbd in Frameworks */,
 				688BD7FC7725C3EF401A67B4 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +136,19 @@
 		D766B733C22D9EE0F504C159 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F0192F151C47CB4C003F51BC /* OpenGLES.framework */,
+				F0192F131C47C60D003F51BC /* AlipaySDK.framework */,
+				F0192DB01C479668003F51BC /* CoreMotion.framework */,
+				F0192DAE1C479656003F51BC /* CFNetwork.framework */,
+				F0192DAC1C479640003F51BC /* Foundation.framework */,
+				F0192DAA1C479636003F51BC /* UIKit.framework */,
+				F0192DA81C479627003F51BC /* CoreGraphics.framework */,
+				F0192DA61C479608003F51BC /* CoreText.framework */,
+				F0192DA41C4795EA003F51BC /* QuartzCore.framework */,
+				F0192DA21C4795D9003F51BC /* CoreTelephony.framework */,
+				F0192DA01C479597003F51BC /* SystemConfiguration.framework */,
+				F0192D9E1C47956A003F51BC /* libz.tbd */,
+				F0192D9C1C47955D003F51BC /* libc++.tbd */,
 				6BBD5FC24E0B3D750011875A /* libPods.a */,
 			);
 			name = Frameworks;
@@ -103,6 +157,8 @@
 		F06C6B831C1EBC4400B2BB4B = {
 			isa = PBXGroup;
 			children = (
+				F063236C1C86839500C16CBE /* KSDKsliderView.h */,
+				F063236D1C86839500C16CBE /* KSDKsliderView.m */,
 				F06C6B8E1C1EBC4400B2BB4B /* BankDemo */,
 				F06C6BA81C1EBC4400B2BB4B /* BankDemoTests */,
 				F06C6BB31C1EBC4400B2BB4B /* BankDemoUITests */,
@@ -142,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				F06C6B901C1EBC4400B2BB4B /* main.m */,
+				F06C6BC51C1EC30B00B2BB4B /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -234,6 +291,7 @@
 				TargetAttributes = {
 					F06C6B8B1C1EBC4400B2BB4B = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = F5QBMS6AZJ;
 					};
 					F06C6BA41C1EBC4400B2BB4B = {
 						CreatedOnToolsVersion = 7.2;
@@ -348,6 +406,7 @@
 				F06C6B971C1EBC4400B2BB4B /* ViewController.m in Sources */,
 				F06C6B941C1EBC4400B2BB4B /* AppDelegate.m in Sources */,
 				F06C6B911C1EBC4400B2BB4B /* main.m in Sources */,
+				F063236E1C86839500C16CBE /* KSDKsliderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,10 +548,26 @@
 			baseConfigurationReference = 34B6ED9998EB1B2A0D696593 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BankDemo/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/ZBarSDK\"",
+					"$(SRCROOT)/BankDemo",
+				);
 				INFOPLIST_FILE = BankDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kimi.zhang.BankDemo;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rrskx.driver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -502,10 +577,26 @@
 			baseConfigurationReference = 142BA43EAE2A0A1A829E0213 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BankDemo/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/ZBarSDK\"",
+					"$(SRCROOT)/BankDemo",
+				);
 				INFOPLIST_FILE = BankDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kimi.zhang.BankDemo;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rrskx.driver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

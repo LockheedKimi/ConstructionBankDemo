@@ -120,7 +120,8 @@
     //加点击效果
     for (NSInteger i=0; i<_subViewArray.count; i++) {
         UIButton *button=_subViewArray[i];
-        [button addTarget:self action:@selector(subViewOut:) forControlEvents:UIControlEventTouchUpOutside];
+        [self bringSubviewToFront:button];
+        [button addTarget:self action:@selector(subViewOut:) forControlEvents:UIControlEventTouchUpInside];
     }
 }
 
@@ -228,8 +229,7 @@ float speed;  //转动速度
 }
 
 -(void)subViewOut:(UIButton *)button
-{
-    //点击
+{   //点击
     if(self.clickSomeOne){
         self.clickSomeOne([NSString stringWithFormat:@"%ld",(long)button.tag]);
     }
