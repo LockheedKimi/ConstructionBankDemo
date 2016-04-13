@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		688BD7FC7725C3EF401A67B4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BBD5FC24E0B3D750011875A /* libPods.a */; };
 		F06C6B911C1EBC4400B2BB4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F06C6B901C1EBC4400B2BB4B /* main.m */; };
 		F06C6B941C1EBC4400B2BB4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F06C6B931C1EBC4400B2BB4B /* AppDelegate.m */; };
 		F06C6B971C1EBC4400B2BB4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F06C6B961C1EBC4400B2BB4B /* ViewController.m */; };
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		142BA43EAE2A0A1A829E0213 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		34B6ED9998EB1B2A0D696593 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6BBD5FC24E0B3D750011875A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06C6B8C1C1EBC4400B2BB4B /* BankDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06C6B901C1EBC4400B2BB4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F06C6B921C1EBC4400B2BB4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				688BD7FC7725C3EF401A67B4 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		211D02D264C3B302704120D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34B6ED9998EB1B2A0D696593 /* Pods.debug.xcconfig */,
+				142BA43EAE2A0A1A829E0213 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D766B733C22D9EE0F504C159 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BBD5FC24E0B3D750011875A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F06C6B831C1EBC4400B2BB4B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				F06C6BA81C1EBC4400B2BB4B /* BankDemoTests */,
 				F06C6BB31C1EBC4400B2BB4B /* BankDemoUITests */,
 				F06C6B8D1C1EBC4400B2BB4B /* Products */,
+				211D02D264C3B302704120D8 /* Pods */,
+				D766B733C22D9EE0F504C159 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F06C6BB91C1EBC4400B2BB4B /* Build configuration list for PBXNativeTarget "BankDemo" */;
 			buildPhases = (
+				EA9C6864246A05DF523D3546 /* Check Pods Manifest.lock */,
 				F06C6B881C1EBC4400B2BB4B /* Sources */,
 				F06C6B891C1EBC4400B2BB4B /* Frameworks */,
 				F06C6B8A1C1EBC4400B2BB4B /* Resources */,
+				4C701C2987E171923678C751 /* Embed Pods Frameworks */,
+				B098A947566CE79565CCAA3B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +291,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C701C2987E171923678C751 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B098A947566CE79565CCAA3B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA9C6864246A05DF523D3546 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F06C6B881C1EBC4400B2BB4B /* Sources */ = {
@@ -411,9 +486,11 @@
 		};
 		F06C6BBA1C1EBC4400B2BB4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34B6ED9998EB1B2A0D696593 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BankDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kimi.zhang.BankDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +499,11 @@
 		};
 		F06C6BBB1C1EBC4400B2BB4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 142BA43EAE2A0A1A829E0213 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BankDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kimi.zhang.BankDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +577,7 @@
 				F06C6BBB1C1EBC4400B2BB4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F06C6BBC1C1EBC4400B2BB4B /* Build configuration list for PBXNativeTarget "BankDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +586,7 @@
 				F06C6BBE1C1EBC4400B2BB4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F06C6BBF1C1EBC4400B2BB4B /* Build configuration list for PBXNativeTarget "BankDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +595,7 @@
 				F06C6BC11C1EBC4400B2BB4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
